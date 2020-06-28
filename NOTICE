@@ -1,0 +1,9 @@
+Xamarin.Bindings.Input-Mask-Android
+Copyright (c) 2020 Vadim Sedov
+Licensed under the MIT license.
+
+This project uses:
+
+Library "input-mask-android" (https://github.com/RedMadRobot/input-mask-android)
+Copyright (c) 2015 Redmadrobot
+Licensed under the MIT License.

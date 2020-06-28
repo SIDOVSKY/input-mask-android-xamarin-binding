@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Bindings.Input-Mask-Android</id>
+    <version>6.0.0</version>
+    <title>Xamarin.Bindings.Input-Mask-Android</title>
+    <authors>SIDOVSKY</authors>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/SIDOVSKY/input-mask-android-xamarin-binding</projectUrl>
+    <repository type="git" url="https://github.com/SIDOVSKY/input-mask-android-xamarin-binding.git" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Binding library for https://github.com/RedMadRobot/input-mask-android</description>
+    <copyright>Vadim Sedov, RedMadRobot</copyright>
+    <tags>redmadrobot input mask xamarin android monodroid xamarin.android</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.3.31" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xamarin.Bindings.Input-Mask-Android.dll" target="lib\MonoAndroid\Xamarin.Bindings.Input-Mask-Android.dll" />
+  </files>
+</package>

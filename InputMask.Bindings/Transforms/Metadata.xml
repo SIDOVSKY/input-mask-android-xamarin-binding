@@ -1,0 +1,37 @@
+﻿<metadata>
+  <!-- Normalize the namespace for .NET -->
+  <attr path="/api/package[@name='com.redmadrobot.inputmask']"
+        name="managedName">InputMask</attr>
+  
+  <attr path="/api/package[@name='com.redmadrobot.inputmask.helper']"
+        name="managedName">InputMask.Helper</attr>
+  
+  <attr path="/api/package[@name='com.redmadrobot.inputmask.model']"
+        name="managedName">InputMask.Model</attr>
+  
+  <attr path="/api/package[@name='com.redmadrobot.inputmask.model.state']"
+        name="managedName">InputMask.ModelState</attr>
+
+  <!-- Fix missing fields for Companion Objects -->
+  <attr path="/api/package/class[@name='MaskedTextChangedListener.Companion']"
+        name="managedName">MaskedTextChangedListener.CompanionObject</attr>
+
+  <!-- Change parameter names to more meaningful ones. -->
+  <attr path="/api/package[@name='com.redmadrobot.inputmask']
+          /interface[@name='MaskedTextChangedListener.ValueListener']
+          /method[@name='onTextChanged']
+          /parameter[1]"
+        name="managedName">maskFilled</attr>
+  
+  <attr path="/api/package[@name='com.redmadrobot.inputmask']
+          /interface[@name='MaskedTextChangedListener.ValueListener']
+          /method[@name='onTextChanged']
+          /parameter[2]"
+        name="managedName">extractedValue</attr>
+  
+  <attr path="/api/package[@name='com.redmadrobot.inputmask']
+          /interface[@name='MaskedTextChangedListener.ValueListener']
+          /method[@name='onTextChanged']
+          /parameter[3]"
+        name="managedName">formattedValue</attr>
+</metadata>

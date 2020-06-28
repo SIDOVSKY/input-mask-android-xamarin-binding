@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InputMaskAndroid.Sample</string>
+    <string name="phone_prefix_sample">Phone Prefix Sample</string>
+    <string name="phone_suffix_sample">Phone Suffix Sample</string>
+</resources>
